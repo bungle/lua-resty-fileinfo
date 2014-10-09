@@ -6,7 +6,7 @@
 
 ```lua
 local fileinfo = require "resty.fileinfo"
-fileinfo"a.txt"
+fileinfo"plain-text.txt"
 ```
 
 This will return string containing `ASCII text`. But there are other information available as well.
