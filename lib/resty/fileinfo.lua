@@ -54,7 +54,7 @@ local flgs = {
     no_check_encoding = 0x200000
 }
 
-local lib = ffi_load("libmagic")
+local lib = ffi_load "magic"
 
 local function getflags(flags)
     local t = type(flags)
