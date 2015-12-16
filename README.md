@@ -6,7 +6,7 @@
 
 ```lua
 local fileinfo = require "resty.fileinfo"
-fileinfo"a.txt"
+fileinfo"plain-text.txt"
 ```
 
 This will return string containing `ASCII text`. But there are other information available as well.
@@ -17,7 +17,7 @@ Just place [`fileinfo.lua`](https://github.com/bungle/lua-resty-fileinfo/blob/ma
 
 ### Compiling and Installing libmagic C-library
 
-Consult you operating system about installing this. Or compile from the sources.
+Consult your operating system or package management about installing this (usually it is already installed in most systems).
 
 ### Using LuaRocks or MoonRocks
 
